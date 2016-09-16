@@ -1,5 +1,6 @@
-# negative lambda0 forbidden
-# negative alpha forbidden
+# negative lambda0 forbidden, function returns -Inf in this case
+# negative alpha forbidden, function returns -Inf in this case
+# negative beta are forbidden, function returns -Inf in this case
 
 likelihood_hawkes_md = function(brtscomplete,alpha,beta,lambda0,TS,cond='stem'){
       
