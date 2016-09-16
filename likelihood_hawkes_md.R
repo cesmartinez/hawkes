@@ -1,3 +1,6 @@
+# function that computes the different versions of the hawkes process
+###...###
+
 # negative lambda0 forbidden, function returns -Inf in this case
 # negative alpha forbidden, function returns -Inf in this case
 # negative beta are forbidden, function returns -Inf in this case
